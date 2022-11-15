@@ -6,9 +6,9 @@
     "framework": "react",
     "config": {
       "SourceDir": "src",
-      "DistributionDir": "build",
-      "BuildCommand": "npm run-script build",
-      "StartCommand": "npm run-script start"
+      "DistributionDir": "dist/amplifynextjschatapp",
+      "BuildCommand": "npx next build",
+      "StartCommand": "npx aws-cdk deploy --outputs-file ./cdk-outputs.json --app \"npm start\""
     }
   },
   "providers": [
