@@ -6,9 +6,12 @@ import '@aws-amplify/ui-react/styles.css'
 Amplify.configure({ ...config, ssr: true })
 function MyApp({ Component, pageProps }) {
 	return (
+        <>
+            <h1>ArcaSea</h1>
 		<AmplifyProvider>
 			<Component {...pageProps} />
 		</AmplifyProvider>
+        </>
 	)
 }
 
