@@ -15,7 +15,7 @@ import NextLink from 'next/link'
 import config from '../src/aws-exports'
 import { Amplify } from 'aws-amplify'
 
-Amplify.configure({ ...config, ssr: true })
+Amplify.configure({ ...config, ssr: false })
 
 function Home({ signOut, user }) {
 	const [rooms, setRooms] = useState([])
