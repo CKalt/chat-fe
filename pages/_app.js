@@ -3,11 +3,11 @@ import { AmplifyProvider } from '@aws-amplify/ui-react'
 import config from '../src/aws-exports'
 import '@aws-amplify/ui-react/styles.css'
 
-Amplify.configure({ ...config, ssr: false })
+Amplify.configure({ ...config, ssr: true })
 function MyApp({ Component, pageProps }) {
 	return (
         <>
-            <h1>ArcaSea Team Videos</h1>
+            <h1>ArcaSea Videos</h1>
             <AmplifyProvider>
                 <Component {...pageProps} />
             </AmplifyProvider>
