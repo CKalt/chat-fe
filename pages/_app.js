@@ -7,7 +7,7 @@ Amplify.configure({ ...config, ssr: true })
 function MyApp({ Component, pageProps }) {
 	return (
         <>
-            <h1>ArcaSea Videos</h1>
+            <h1>ArcaSea Video Repo</h1>
             <AmplifyProvider>
                 <Component {...pageProps} />
             </AmplifyProvider>
