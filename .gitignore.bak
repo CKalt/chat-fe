@@ -32,7 +32,7 @@ yarn-error.log*
 .env.production.local
 
 # vercel
-#.vercel
+.vercel
 
 #amplify-do-not-edit-begin
 amplify/\#current-cloud-backend
@@ -44,12 +44,12 @@ amplify/backend/.temp
 build/
 dist/
 node_modules/
-#awsconfiguration.json
-#amplifyconfiguration.json
+awsconfiguration.json
+amplifyconfiguration.json
 amplifyconfiguration.dart
-#amplify-build-config.json
-#amplify-gradle-config.json
-#amplifytools.xcconfig
+amplify-build-config.json
+amplify-gradle-config.json
+amplifytools.xcconfig
 .secret-*
 **.sample
 #amplify-do-not-edit-end
