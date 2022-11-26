@@ -36,5 +36,18 @@
       "lastPushTimeStamp": "2022-11-01T14:43:34.378Z"
     }
   },
-  "hosting": {}
+  "hosting": {
+    "amplifyhosting": {
+      "service": "amplifyhosting",
+      "providerPlugin": "awscloudformation",
+      "type": "manual",
+      "providerMetadata": {
+        "s3TemplateURL": "https://s3.amazonaws.com/amplify-amplifynextjschatapp-dev-91950-deployment/amplify-cfn-templates/hosting/amplifyhosting-template.json",
+        "logicalId": "hostingamplifyhosting"
+      },
+      "lastPushTimeStamp": "2022-11-26T22:31:51.936Z",
+      "output": {},
+      "lastPushDirHash": "65eI8DS5jwiRutjeKTNZwS625iE="
+    }
+  }
 }
